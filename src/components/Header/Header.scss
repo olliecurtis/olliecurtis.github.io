@@ -1,0 +1,11 @@
+.Header {
+  display: flex;
+  padding: .75rem;
+  justify-content: right;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(37,32,31,.3);
+
+  &_item {
+    padding: .5rem;
+  }
+}

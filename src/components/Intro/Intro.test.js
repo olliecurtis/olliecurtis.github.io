@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import App from './App';
+import Intro from './Intro';
 
 it('renders without crashing', () => {
   // eslint-disable-next-line no-undef
   const div = document.createElement('div');
-  render(<App />, div);
+  render(<Intro />, div);
 });
