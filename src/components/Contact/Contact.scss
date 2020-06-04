@@ -1,0 +1,26 @@
+.Contact {
+  padding: 5rem;
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    padding: 1rem;
+  } 
+
+  &_Title {
+    text-align: center;
+  }
+
+  &_Intro {
+    text-align: center;
+  }
+
+  &_Body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_Detail {
+    flex: 50%;
+    padding: 10px;
+  }
+}

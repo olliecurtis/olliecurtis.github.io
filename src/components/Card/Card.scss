@@ -1,0 +1,47 @@
+.Card {
+  position: relative;
+  width: 15rem;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px 0px rgba(37,32,31,.3);
+  //border-radius: 1rem;
+  padding: .75rem;
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  // Keep transitions and animations to only transform and opacity.
+  // This pseudo element solution allows us to animate box-shadow in a performant manner.
+  // http://tobiasahlin.com/blog/how-to-animate-box-shadow/
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    transition: opacity 200ms ease-in-out;
+    opacity: 0;
+    pointer-events: none; // To prevent the pseudo element absorbing click events
+
+    box-shadow: 0px 1px 3px 0px rgba(37,32,31,.3);
+    // border-radius: 1rem;
+
+    // pointer-events doesn't work on ie
+    @media screen\0 {
+      z-index: -1;
+    }
+  }
+
+  &:active::after {
+    box-shadow: none;
+  }
+
+  &_Title {
+    text-align: center;
+  }
+}

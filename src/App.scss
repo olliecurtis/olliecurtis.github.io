@@ -1,0 +1,42 @@
+.App {
+  background-color: lightgray;
+}
+
+.App-header {
+  min-height: 2rem;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App_main {
+  background-color: white;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  padding-top: 1rem;
+  color: black;
+  font-size: 1rem;  
+  min-height: 50rem;
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  } 
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  } 
+}

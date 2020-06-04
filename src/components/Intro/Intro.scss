@@ -1,0 +1,19 @@
+.Intro {
+  background-color: #282c34;
+  color: #ffffff;
+  font-size: 3rem;
+  padding: 3rem;
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    padding: 1rem;
+    font-size: 2rem;
+  } 
+
+  &_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
