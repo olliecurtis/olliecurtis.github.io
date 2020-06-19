@@ -1,11 +1,18 @@
 .About {
   padding: 5rem;
+  display: flex;
+  flex-direction: row;
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     padding: 1rem;
   } 
 
+  &_Image {
+    border-radius: 5rem;
+  }
+
   &_Intro {
+    margin: 1rem;
   }
 }

@@ -3,6 +3,11 @@ import './About.scss';
 
 const About = () => (
   <div className="About">
+    <img
+      className="About_Image"
+      src="https://via.placeholder.com/250"
+      alt="this is car"
+    />
     <div className="About_Intro">
       Hello{' '}
       <span role="img" aria-label="waving emoji">
