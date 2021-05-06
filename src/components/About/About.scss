@@ -1,5 +1,5 @@
 .About {
-  padding: 5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: row;
 
@@ -8,8 +8,13 @@
     padding: 1rem;
   } 
 
+  &_Image-container {
+    display: block;
+    margin: auto auto; 
+  }
+
   &_Image {
-    border-radius: 5rem;
+    border-radius: 10rem;
   }
 
   &_Intro {

@@ -11,19 +11,24 @@ const Projects = () => (
     <p className="Projects_Intro">Here is some of my most recent projects</p>
     <div className="Projects_List">
       <Card
+        title="Backpack"
+        subtitle="The Skyscanner design system for building Skyscanner products"
+        href="https://backpack.github.io"
+      />
+      <Card
+        title="Bullseye"
+        subtitle="A simple Bullseye game for iOS using SwiftUI"
+        href="https://github.com/olliecurtis/Bullseye"
+      />
+      <Card
+        title="Android Dice App"
+        subtitle="Learning Android development with a simple Dice App"
+        href="https://github.com/olliecurtis/Android-Dice-App"
+      />
+      <Card
         title="Chatty AI"
         subtitle="A AI project"
-        href="https://google.co.uk"
-      />
-      <Card
-        title="Hue Node API"
-        subtitle="A node server to interact with Hue API"
-        href="https://google.co.uk"
-      />
-      <Card
-        title="Backpack"
-        subtitle="The Skyscanner Design System"
-        href="https://google.co.uk"
+        href="https://github.com/olliecurtis/Chatty-Chat-AI"
       />
     </div>
   </div>

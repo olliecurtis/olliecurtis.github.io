@@ -1,3 +1,7 @@
+.Card_wrapper {
+  margin-bottom: 1rem;
+}
+
 .Card {
   position: relative;
   width: 15rem;
@@ -41,7 +45,8 @@
     box-shadow: none;
   }
 
-  &_Title {
+  &_Title,
+  &_Subtitle {
     text-align: center;
   }
 }
