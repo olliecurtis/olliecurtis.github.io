@@ -1,5 +1,5 @@
 .Contact {
-  padding: 5rem;
+  padding: 1rem;
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
@@ -17,6 +17,7 @@
   &_Body {
     display: flex;
     justify-content: space-between;
+    margin: 3rem;
   }
 
   &_Detail {
